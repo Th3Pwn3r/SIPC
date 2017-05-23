@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../Estilos/fuentes/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.background {
+	background-color: #E6E6E6; 
+}
+
+.cabecera {
+	font:'Roboto';
+	font-size: 155px;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	text-align: center;
+}
+
+.logosi {
+	color: #08298A;
+	margin-right: -15;
+}
+
+.logopc {
+	color: #585858;
+	margin-left: -15;
+}
+
+.panel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16;
+	text-align: center;
+	z-index: 100;
+	display: inherit;
+	position: relative;
+	max-width: 25%;
+	padding: 50px 0 50px 0;
+	border-radius: 0 5px 5px 0;
+	margin: 0 auto 0 auto;
+-webkit-box-shadow: 0px 0px 25px 8px rgba(66,66,66,1);
+-moz-box-shadow: 0px 0px 25px 8px rgba(66,66,66,1);
+box-shadow: 0px 0px 25px 8px rgba(66,66,66,1);
+}
+
+.opnestext {
+	padding: 5px 0px 5px 0px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.optextextras {
+	padding: 0 0 0 0;
+}
+
+
+.oscurecido {
+	background-color:#424242;
+}
+.transparente {
+	opacity: 30%;
+}
+
+.redondeado {
+	border-radius: 25px 25px 25px 25px;
+}
+
+.paneltransp {
+	width: 200px;
+    height: 150px;
+    background: #73AD21;
+}
+
+.botonr {
+	color: #318aac !important;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 0.5em 1.2em;
+	background: rgba(0,0,0,0);
+	border: 2px solid;
+	border-color: #318aac;
+	transition: all 1s ease;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.botonr:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+

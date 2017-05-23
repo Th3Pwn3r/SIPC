@@ -1,0 +1,143 @@
+.body {
+	background-color:#D8D8D8;
+	margin: 0 0 0 0;
+}
+
+.opac {
+	opacity: 50%;
+}
+
+.menubar {
+	float:left;
+	z-index: 110;
+	position: fixed;
+	background-color:#2E2E2E;
+	height: 100%;
+	width: 30%;
+	padding: 0 0 0 0;
+	border-radius: 0 5px 5px 0;
+	margin: 0 0 0 0;
+	float:left;
+	margin-left: 0;
+	-webkit-box-shadow: 0px -1px 25px 8px rgba(66,66,66,1);
+	-moz-box-shadow: 0px -1px 25px 8px rgba(66,66,66,1);
+	box-shadow: 0px -1px 25px 8px rgba(66,66,66,1);
+}
+
+.contenido {
+	padding-top: 10%;
+	z-index: 100;
+	position:absolute;
+	top:15%;
+	left:0;
+	padding-left: 33%;
+	padding-top: 0;
+}
+
+.userbox {
+	height: 15%;
+	z-index: 100;
+	position:absolute;
+	top:0;
+	right:0;
+	padding-left: 77%;
+}
+
+.nusera {
+	padding-top:20%;
+}
+
+.nuserb {
+	font:'Roboto';
+	font-size: 20;
+	font-style: bold;
+	color: gray;
+}
+
+.nuserc {
+	font:'Roboto';
+	font-size: 18;
+	font-style: bold;
+	color: gray;
+}
+
+.iconuser {
+	height:80px;
+	width:80px;
+	border-radius: 100px 100px 100px 100px;
+}
+
+.about {
+	font-size: 18px;
+	color:gray;
+	margin-left: -13%;
+}
+
+.menubot {
+	color: #318aac !important;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 0.5em 1.2em;
+	background: rgba(0,0,0,0);
+	border: 2px solid;
+	border-color: #318aac;
+	transition: all 1s ease;
+	position: relative;
+	border-radius: 5px 5px 5px 5px;
+}
+.menubot:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+.margmenu {
+	font-size: 25px;
+	color:gray;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+	margin-left: 12%;
+}
+.cabecera {
+	font:'Roboto';
+	font-size: 120px;
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.textocentrado {
+	text-align: center;
+}
+
+.logosi {
+	color: #08298A;
+	margin-right: 5;
+}
+
+.logopc {
+	color: #585858;
+	margin-left: 5;
+}
+
+.align {
+	margin-left: -15%;
+}
